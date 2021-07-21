@@ -1,0 +1,22 @@
+<template>
+  <view>
+    login
+  </view>
+</template>
+
+<script>
+  import { createComponent } from '@mpxjs/core'
+  createComponent({
+    onLoad () {
+      // setInterval(()=> {
+      //   // console.log('mini-app', wx.postMessage)
+      // }, 1000)
+    }
+  })
+</script>
+
+<script type="application/json">
+  {
+    "component": true
+  }
+</script>

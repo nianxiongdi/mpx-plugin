@@ -1,0 +1,14 @@
+{
+  "publicComponents": {
+    "list": "./components/list",
+    "home": "./components/home"
+  },
+  "componentGenerics": {
+    "mp-view": true
+  },
+  "main": "./index.js",
+  "pages": {
+    "index": "./page/index"
+  },
+  "workers": "./store"
+}

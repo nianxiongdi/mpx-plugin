@@ -1,0 +1,28 @@
+<template>
+  <view>
+    <navigator url="plugin://myPlugin/index">
+      go to plugin
+    </navigator>
+    <login><login>
+  </view>
+</template>
+
+<script>
+  import { createPage } from '@mpxjs/core'
+  createPage({
+    onLoad () {
+      // setInterval(()=> {
+      //   // console.log('mini-app', wx.postMessage)
+      // }, 1000)
+    }
+  })
+</script>
+
+<script type="application/json">
+  {
+    "usingComponents": {
+      "list": "plugin://myPlugin/list",
+      "login": "../components/login"
+    }
+  }
+</script>

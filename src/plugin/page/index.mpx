@@ -1,0 +1,24 @@
+<template>
+  <view>
+    <list></list>
+  </view>
+</template>
+
+<script>
+  import { createPage } from '@mpxjs/core'
+  createPage({
+    onLoad () {
+      // setInterval(()=> {
+      //   // console.log('mini-app', wx.postMessage)
+      // }, 1000)
+    }
+  })
+</script>
+
+<script type="application/json">
+  {
+    "usingComponents": {
+      "list": "../components/list"
+    }
+  }
+</script>
